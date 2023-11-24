@@ -12,6 +12,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
     property: value;
   }
+  Example : p { color: blue; }
 
 - **Class Selector:**
   ```css
@@ -19,6 +20,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
     property: value;
   }
+  Example: .highlight { background-color: yellow; }
 
 - **ID Selector:**
   ```css 
@@ -26,13 +28,37 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
     property: value;
   }
-
+  Example: #header { font-size: 24px; }
+  
 - **Universal Selector:**
   ```css
   * {
     property: value;
     }
+  Example: * { margin: 0; }
 
+- **Descendant Selector:**
+  ```css
+  ancestor descendant
+  {
+  styles
+  }
+  Example: article p { font-style: italic; }
+
+- **Child Selector:**
+  ```css
+  parent > child
+  {
+   styles
+  }
+
+- **Attribute Selector:**
+  ```css
+  element[attribute="value"]
+  {
+   styles
+  }
+  
 ## Box Model
 
 - **Width and Height:**
@@ -148,4 +174,6 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   ```css
   cursor: pointer | default | text | grab | not-allowed;
 
+## Conclusion
+This cheatsheet covers some fundamental CSS properties and values. Experiment and explore these to enhance the styling of HTML documents.
 
