@@ -14,9 +14,10 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 
 - **Class Selector:**
   ```css
-.classname {
-  property: value;
-}
+  .classname
+  {
+    property: value;
+  }
 
 - **ID Selector:**
   ```css
