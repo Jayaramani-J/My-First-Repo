@@ -12,7 +12,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
     property: value;
   }
-  Example : p { color: blue; }
+  Example: p { color: blue; }
 
 - **Class Selector:**
   ```css
@@ -51,13 +51,15 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
    styles
   }
-
+  Example: nav > ul { list-style-type: none; }
+  
 - **Attribute Selector:**
   ```css
   element[attribute="value"]
   {
    styles
   }
+  Example: input[type="text"] { width: 200px; }
   
 ## Box Model
 
@@ -69,38 +71,58 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 - **Margin:**
   ```css
   margin: top right bottom left;
+  Example: margin: 10px;
   
 - **Padding:**
   ```css
   padding: top right bottom left;
+  Example: padding: 10px;
   
 - **Border:**
   ```css
   border: width style color;
-
+  Example: border: 2px solid #000;
+  
 ## Typography
 
 - **Font Family:**
   ```css
   font-family: 'Font Name', sans-serif;
+  Example: font-family: 'Arial', sans-serif;
 
 - **Font Size:**
   ```css
   font-size: value;
+  Example: font-size: 16px;
 
 - **Font Weight:**
   ```css
   font-weight: normal | bold;
-
+  
 - **Text Alignment:**
   ```css
   text-align: left | center | right;
+
+- **Line Height:**
+  ```css
+  Property: line-height
+  Example: line-height: 1.5;
+
+- **Text Decoration:**
+  ```css
+  Property: text-decoration
+  Example: text-decoration: underline;
+
+- **Text Transform:**
+  ```css
+  Property: text-transform
+  Example: text-transform: uppercase;
 
 ## Color
 - **Color:**
   ```css
   color: #RRGGBB;
-
+  
 - **Background Color:**
   ```css
   background-color: #RRGGBB;
@@ -176,4 +198,5 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 
 ## Conclusion
 This cheatsheet covers some fundamental CSS properties and values. Experiment and explore these to enhance the styling of HTML documents.
+
 
