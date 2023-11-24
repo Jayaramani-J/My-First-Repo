@@ -12,6 +12,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
     property: value;
   }
+  
   Example: p { color: blue; }
 
 - **Class Selector:**
@@ -20,6 +21,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
     property: value;
   }
+  
   Example: .highlight { background-color: yellow; }
 
 - **ID Selector:**
@@ -28,6 +30,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
     property: value;
   }
+  
   Example: #header { font-size: 24px; }
   
 - **Universal Selector:**
@@ -35,6 +38,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   * {
     property: value;
     }
+  
   Example: * { margin: 0; }
 
 - **Descendant Selector:**
@@ -43,6 +47,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
   styles
   }
+  
   Example: article p { font-style: italic; }
 
 - **Child Selector:**
@@ -51,6 +56,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
    styles
   }
+  
   Example: nav > ul { list-style-type: none; }
   
 - **Attribute Selector:**
@@ -59,6 +65,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   {
    styles
   }
+  
   Example: input[type="text"] { width: 200px; }
   
 ## Box Model
@@ -71,16 +78,19 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 - **Margin:**
   ```css
   margin: top right bottom left;
+  
   Example: margin: 10px;
   
 - **Padding:**
   ```css
   padding: top right bottom left;
+  
   Example: padding: 10px;
   
 - **Border:**
   ```css
   border: width style color;
+  
   Example: border: 2px solid #000;
   
 ## Typography
@@ -88,11 +98,13 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 - **Font Family:**
   ```css
   font-family: 'Font Name', sans-serif;
+  
   Example: font-family: 'Arial', sans-serif;
 
 - **Font Size:**
   ```css
   font-size: value;
+  
   Example: font-size: 16px;
 
 - **Font Weight:**
@@ -105,17 +117,19 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 
 - **Line Height:**
   ```css
-  Property: line-height
+  line-height: value;
+  
   Example: line-height: 1.5;
 
 - **Text Decoration:**
   ```css
-  Property: text-decoration
+  text-decoration: value;
+  
   Example: text-decoration: underline;
 
 - **Text Transform:**
   ```css
-  Property: text-transform
+  text-transform: value;
   Example: text-transform: uppercase;
 
 ## Color
@@ -127,6 +141,34 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   ```css
   background-color: #RRGGBB;
 
+- **Border Color:**
+  ``css
+  border-color: value;
+  
+  Example: border-color: #333;
+
+- **Opacity:**
+  ```css
+  opacity: value;
+
+  Example: opacity: 0.7;
+
+- **RGB Values:**
+  ```css
+  color: rgb(255, 0, 0);
+
+- **RGBA Values:**
+  ```css
+  background-color: rgba(255, 0, 0, 0.5);
+
+- **HSL Values:**
+  ```css
+  color: hsl(120, 100%, 50%);
+
+- **HSLA Values:**
+  ```css
+  background-color: hsla(120, 100%, 50%, 0.5);
+  
 ## Layout
 - **Display:**
   ```css
