@@ -52,7 +52,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
  ```css
   border: width style color;
 
-### Typography
+## Typography
 
 - **Font Family:**
   ```css
