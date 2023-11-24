@@ -38,13 +38,9 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 ```css
   width: value;
   height: value;
-
-- **Margin:**
-```css
+Margin:
   margin: top right bottom left;
-
 Padding:
-```css
 padding: top right bottom left;
 
 Border:
