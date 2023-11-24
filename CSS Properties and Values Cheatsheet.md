@@ -14,21 +14,21 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   }
 
 - **Class Selector:**
-
+  ```css
   .classname
   {
     property: value;
   }
 
 - **ID Selector:**
-  
+  ```css 
   #idname
   {
     property: value;
   }
 
 - **Universal Selector:**
-  
+  ```css
   * {
     property: value;
     }
@@ -36,19 +36,26 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 ## Box Model
 
 - **Width and Height:**
-
+  ```css
   width: value;
   height: value;
 
+- **Margin:**
+  ```css
   margin: top right bottom left;
-
+  
+- **Padding:**
+  ```css
   padding: top right bottom left;
-
+  
+- **Border:**
+ ```css
   border: width style color;
 
-## Typography
+### Typography
 
-- **Font Family:** 
+- **Font Family:**
+  ```css
 font-family: 'Font Name', sans-serif;
 
 Font Size:
