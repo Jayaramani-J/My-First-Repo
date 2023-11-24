@@ -4,7 +4,7 @@
 
 This cheatsheet provides a quick reference for common CSS properties and values used in web development.
 
-### Selectors
+## Selectors
 
 - **Element Selector:**
   ```css
@@ -33,7 +33,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
     property: value;
     }
 
-### Box Model
+## Box Model
 
 - **Width and Height:**
 ```css
@@ -47,7 +47,8 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   border: width style color;
 
 ## Typography
-Font Family:
+
+- **Font Family:** 
 font-family: 'Font Name', sans-serif;
 
 Font Size:
