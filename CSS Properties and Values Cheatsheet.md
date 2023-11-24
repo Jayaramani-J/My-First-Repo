@@ -91,7 +91,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   ```css
   border: width style color;
   
-  Example: border: 2px solid #000;
+    Example: border: 2px solid #000;
   
 ## Typography
 
@@ -99,13 +99,13 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   ```css
   font-family: 'Font Name', sans-serif;
   
-  Example: font-family: 'Arial', sans-serif;
+    Example: font-family: 'Arial', sans-serif;
 
 - **Font Size:**
   ```css
   font-size: value;
   
-  Example: font-size: 16px;
+    Example: font-size: 16px;
 
 - **Font Weight:**
   ```css
@@ -119,18 +119,19 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   ```css
   line-height: value;
   
-  Example: line-height: 1.5;
+    Example: line-height: 1.5;
 
 - **Text Decoration:**
   ```css
   text-decoration: value;
   
-  Example: text-decoration: underline;
+    Example: text-decoration: underline;
 
 - **Text Transform:**
   ```css
   text-transform: value;
-  Example: text-transform: uppercase;
+  
+    Example: text-transform: uppercase;
 
 ## Color
 - **Color:**
@@ -142,7 +143,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   background-color: #RRGGBB;
 
 - **Border Color:**
-  ``css
+  ```css
   border-color: value;
   
   Example: border-color: #333;
