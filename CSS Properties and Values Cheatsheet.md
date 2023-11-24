@@ -34,14 +34,13 @@ This cheatsheet provides a quick reference for common CSS properties and values 
     }
 
 ## Box Model
-- **Width and Height:**
+Width and Height:
 ```css
   width: value;
   height: value;
 
-Margin:
-```css
-  margin: top right bottom left;
+- **Margin:**
+margin: top right bottom left;
 
 Padding:
 ```css
@@ -50,7 +49,7 @@ padding: top right bottom left;
 Border:
 border: width style color;
 
-Typography
+## Typography
 Font Family:
 font-family: 'Font Name', sans-serif;
 
