@@ -12,7 +12,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
     property: value;
   }
 
-Class Selector:
+- **Class Selector:**
 .classname {
   property: value;
 }
