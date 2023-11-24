@@ -91,7 +91,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   ```css
   border: width style color;
   
-    Example: border: 2px solid #000;
+  Example: border: 2px solid #000;
   
 ## Typography
 
@@ -99,13 +99,13 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   ```css
   font-family: 'Font Name', sans-serif;
   
-    Example: font-family: 'Arial', sans-serif;
+  Example: font-family: 'Arial', sans-serif;
 
 - **Font Size:**
   ```css
   font-size: value;
   
-    Example: font-size: 16px;
+  Example: font-size: 16px;
 
 - **Font Weight:**
   ```css
@@ -119,19 +119,19 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   ```css
   line-height: value;
   
-    Example: line-height: 1.5;
+  Example: line-height: 1.5;
 
 - **Text Decoration:**
   ```css
   text-decoration: value;
   
-    Example: text-decoration: underline;
+  Example: text-decoration: underline;
 
 - **Text Transform:**
   ```css
   text-transform: value;
   
-    Example: text-transform: uppercase;
+  Example: text-transform: uppercase;
 
 ## Color
 - **Color:**
@@ -147,12 +147,6 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   border-color: value;
   
   Example: border-color: #333;
-
-- **Opacity:**
-  ```css
-  opacity: value;
-
-  Example: opacity: 0.7;
 
 - **RGB Values:**
   ```css
@@ -179,6 +173,18 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   ```css
   position: static | relative | absolute | fixed;
 
+- **Float:**
+  ```css
+  float: left | right | none;
+
+- **Visibility:**
+  ```css
+  visibility: visible | hidden | collapse;
+
+- **Clear:**
+  ```css
+  clear: left | right | both | none;
+
 - **Flexbox:**
   ```css
   display: flex;
@@ -196,9 +202,17 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   ```css
   flex-direction: row | column | row-reverse | column-reverse;
 
+- **Flex Wrap:**
+  ```css
+  flex-wrap: nowrap | wrap | wrap-reverse;
+ 
 - **Justify Content:**
   ```css
   justify-content: flex-start | flex-end | center | space-between | space-around;
+
+- **Align Content:**
+  ```css
+  align-content: stretch | flex-start | flex-end | center | space-between | space-around;
 
 - **Align Items:**
   ```css
