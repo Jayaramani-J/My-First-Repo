@@ -49,83 +49,103 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   padding: top right bottom left;
   
 - **Border:**
- ```css
+  ```css
   border: width style color;
 
 ## Typography
 
 - **Font Family:**
   ```css
-font-family: 'Font Name', sans-serif;
+  font-family: 'Font Name', sans-serif;
 
-Font Size:
-font-size: value;
+- **Font Size:**
+  ```css
+  font-size: value;
 
-Font Weight:
-font-weight: normal | bold;
+- **Font Weight:**
+  ```css
+  font-weight: normal | bold;
 
-Text Alignment:
-text-align: left | center | right;
+- **Text Alignment:**
+  ```css
+  text-align: left | center | right;
 
-Color
-Color:
-color: #RRGGBB;
+## Color
+- **Color:**
+  ```css
+  color: #RRGGBB;
 
-Background Color:
-background-color: #RRGGBB;
+- **Background Color:**
+  ```css
+  background-color: #RRGGBB;
 
-Layout
-Display:
-display: block | inline | inline-block | flex | grid;
+## Layout
+- **Display:**
+  ```css
+  display: block | inline | inline-block | flex | grid;
 
-Position:
-position: static | relative | absolute | fixed;
+- **Position:**
+  ```css
+  position: static | relative | absolute | fixed;
 
-Flexbox:
-display: flex;
+- **Flexbox:**
+  ```css
+  display: flex;
 
-Grid:
-display: grid;
+- **Grid:**
+  ```css
+  display: grid;
 
-Flexbox Properties
-Flex Container:
-display: flex;
+## Flexbox Properties
+- **Flex Container:**
+  ```css
+  display: flex;
 
-Flex Direction:
-flex-direction: row | column | row-reverse | column-reverse;
+- **Flex Direction:**
+  ```css
+  flex-direction: row | column | row-reverse | column-reverse;
 
-Justify Content:
-justify-content: flex-start | flex-end | center | space-between | space-around;
+- **Justify Content:**
+  ```css
+  justify-content: flex-start | flex-end | center | space-between | space-around;
 
-Align Items:
-align-items: stretch | flex-start | flex-end | center | baseline;
+- **Align Items:**
+  ```css
+  align-items: stretch | flex-start | flex-end | center | baseline;
 
-Transition and Animation
-Transition:
-transition: property duration timing-function delay;
+## Transition and Animation
+- **Transition:**
+  ```css
+  transition: property duration timing-function delay;
 
-Keyframes Animation:
-@keyframes animation-name {
+- **Keyframes Animation:**
+  ```css
+  @keyframes animation-name {
   0% { property: value; }
   100% { property: value; }
-}
+  }
 
-animation: animation-name duration timing-function delay iteration-count direction fill-mode;
+  animation: animation-name duration timing-function delay iteration-count direction fill-mode;
 
-Miscellaneous
-Box Shadow:
-box-shadow: h-offset v-offset blur spread color;
+## Miscellaneous
+- **Box Shadow:**
+  ```css
+  box-shadow: h-offset v-offset blur spread color;
 
-Opacity:
-opacity: value; /* 0.0 to 1.0 */
+- **Opacity:**
+  ```css
+  opacity: value; /* 0.0 to 1.0 */
 
-Z-Index:
-z-index: value;
+- **Z-Index:**
+  ```css
+  z-index: value;
 
-Overflow:
-overflow: visible | hidden | scroll | auto;
+- **Overflow:**
+  ```css
+  overflow: visible | hidden | scroll | auto;
 
-Cursor:
-cursor: pointer | default | text | grab | not-allowed;
+- **Cursor:**
+  ```css
+  cursor: pointer | default | text | grab | not-allowed;
 
 
