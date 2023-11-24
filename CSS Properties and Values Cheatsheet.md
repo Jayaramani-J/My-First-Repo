@@ -8,7 +8,8 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 
 - **Element Selector:**
   ```css
-  element {
+  element
+  {
     property: value;
   }
 
@@ -21,21 +22,25 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 
 - **ID Selector:**
   ```css
-#idname {
-  property: value;
-}
+  #idname
+  {
+    property: value;
+  }
 
-Universal Selector:
-* {
-  property: value;
-}
+- **Universal Selector:**
+  ```css
+  * {
+    property: value;
+    }
 
-Box Model
-Width and Height:
-width: value;
-height: value;
+## Box Model
+- **Width and Height:**
+```css
+  width: value;
+  height: value;
 
-Margin:
+- **Margin:**
+```css
 margin: top right bottom left;
 
 Padding:
