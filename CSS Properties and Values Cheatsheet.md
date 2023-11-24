@@ -14,21 +14,21 @@ This cheatsheet provides a quick reference for common CSS properties and values 
   }
 
 - **Class Selector:**
-  ```css
+
   .classname
   {
     property: value;
   }
 
 - **ID Selector:**
-  ```css
+  
   #idname
   {
     property: value;
   }
 
 - **Universal Selector:**
-  ```css
+  
   * {
     property: value;
     }
@@ -36,7 +36,7 @@ This cheatsheet provides a quick reference for common CSS properties and values 
 ## Box Model
 
 - **Width and Height:**
-```css
+
   width: value;
   height: value;
 
