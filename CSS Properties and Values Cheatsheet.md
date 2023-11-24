@@ -4,7 +4,7 @@
 
 This cheatsheet provides a quick reference for common CSS properties and values used in web development.
 
-## Selectors
+### Selectors
 
 - **Element Selector:**
   ```css
@@ -33,14 +33,15 @@ This cheatsheet provides a quick reference for common CSS properties and values 
     property: value;
     }
 
-## Box Model
-Width and Height:
+### Box Model
+- **Width and Height:**
 ```css
   width: value;
   height: value;
 
 - **Margin:**
-margin: top right bottom left;
+```css
+  margin: top right bottom left;
 
 Padding:
 ```css
